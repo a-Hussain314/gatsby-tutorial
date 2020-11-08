@@ -25,7 +25,7 @@ export default function Blog() {
 
     return (
       <Layout>
-        <Head title="Blogs"></Head>
+        <Head title="Blogs" desc={"blogs page"}></Head>
             <h3>blogs Page</h3>
             {data.allMarkdownRemark.edges.map((post, index)=>{
               console.log(post.node);
