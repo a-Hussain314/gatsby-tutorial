@@ -13,7 +13,6 @@ export default function Home() {
     <Link to="/blog"> Go To blog Page </Link><br/>
     <Link to="/contact"> Go To Contact Page </Link><br/>
     <Link to="/about"> Go To About Page </Link><br/>
-    <Link to="https://www.gatsbyjs.com/docs/quick-start/" target="_blank"> gatsby official site</Link>
   </Layout>
   </>
   )
